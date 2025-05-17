@@ -55,7 +55,7 @@ const onSubmit = async (data: FormValues) => {
       localStorage.setItem("user_email", resData.user?.email || "");
       localStorage.setItem("user_id", resData.user?.id || "");
 
-      navigate("/dashboard");
+      navigate("/patient-list");
     } else {
       const resData = await response.json();
       setLoginError(resData.error || "Login failed. Please check your credentials.");

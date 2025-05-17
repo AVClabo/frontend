@@ -21,23 +21,23 @@ import ViewKanbanIcon from "@mui/icons-material/ViewKanban";
 import ManageAccountsIcon from "@mui/icons-material/ManageAccounts";
 
 const primarynavList = [
-  { link: "/dashboard", label: "Dashboard", icon: <DashboardIcon /> },
-  { link: "/profile", label: "Doctor Profile", icon: <AccountCircleIcon /> },
-  { link: "/doctor-list", label: "Doctor List", icon: <PeopleIcon /> },
+  // { link: "/dashboard", label: "Dashboard", icon: <DashboardIcon /> },
+  // { link: "/profile", label: "Doctor Profile", icon: <AccountCircleIcon /> },
+  // { link: "/doctor-list", label: "Doctor List", icon: <PeopleIcon /> },
   { link: "/patient-list", label: "Patient List", icon: <SickIcon /> },
-  { link: "/appointments", label: "Appointments", icon: <BookOnlineIcon /> },
-  { link: "/calender", label: "Calender", icon: <CalendarMonthIcon /> },
-  { link: "/kanban", label: "Kanban", icon: <ViewKanbanIcon /> },
-  { link: "/account", label: "Account", icon: <ManageAccountsIcon /> },
+  // { link: "/appointments", label: "Appointments", icon: <BookOnlineIcon /> },
+  // { link: "/calender", label: "Calender", icon: <CalendarMonthIcon /> },
+  // { link: "/kanban", label: "Kanban", icon: <ViewKanbanIcon /> },
+  // { link: "/account", label: "Account", icon: <ManageAccountsIcon /> },
 ];
 
 const secondaryNavList = [
-  { link: "/lab-results", label: "Lab Results", icon: <ReceiptLongIcon /> },
-  { link: "/medical-records", label: "Medical Records", icon: <DescriptionIcon /> },
-  { link: "/prescriptions", label: "Prescriptions", icon: <AssignmentTurnedInIcon /> },
-  { link: "/plans", label: "Care Plans", icon: <AssignmentIcon /> },
-  { link: "/forms", label: "Forms", icon: <DescriptionIcon /> },
-  { link: "/help", label: "Get Help", icon: <HelpIcon /> },
+  // { link: "/lab-results", label: "Lab Results", icon: <ReceiptLongIcon /> },
+  // { link: "/medical-records", label: "Medical Records", icon: <DescriptionIcon /> },
+  // { link: "/prescriptions", label: "Prescriptions", icon: <AssignmentTurnedInIcon /> },
+  // { link: "/plans", label: "Care Plans", icon: <AssignmentIcon /> },
+  // { link: "/forms", label: "Forms", icon: <DescriptionIcon /> },
+  // { link: "/help", label: "Get Help", icon: <HelpIcon /> },
   { link: "/settings", label: "Settings", icon: <SettingsIcon /> },
   // Logout will be handled separately
 ];
